@@ -12,9 +12,6 @@
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
-strong {
-  color: #D14233; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -286,3 +283,12 @@ body {
 @media print {
   .backgrounds {
     background-color: #2b2b2b; } }
+
+strong {
+  color: #D14233; }
+
+.reveal h1, .reveal h2 {
+  color: #D14233; }
+
+.reveal h3 {
+  color: #5288AC; }

@@ -44,11 +44,22 @@ section.has-dark-background {
 	}
 }
 
-strong {
-  color: $dangerColor;
-}
-
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+
+
+strong {
+  color: $dangerColor;
+}
+
+.reveal h1, .reveal h2 {
+  color: $dangerColor;
+}
+
+.reveal h3 {
+  color: $headingColor;
+}
