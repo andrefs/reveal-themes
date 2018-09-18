@@ -22,9 +22,10 @@ $headingColor: #5288AC;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundImage: 'bricks.jpg';
-$linkColor: #3D566E;
+$linkColor: #5288AC;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$dangerColor: #D14233;
 
 @mixin bodyBackground {
 	background-image: url($backgroundImage);
@@ -41,6 +42,10 @@ section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 	}
+}
+
+strong {
+  color: $dangerColor;
 }
 
 
