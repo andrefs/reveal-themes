@@ -24,7 +24,7 @@ body {
   background-origin: padding-box;
   -moz-background-size: cover;
   background-size: cover;
-  background-color: #2b2b2b; }
+  background-color: "white"; }
 
 .reveal {
   font-family: "ChunkFive", sans-serif;
@@ -282,7 +282,7 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #2b2b2b; } }
+    background-color: "white"; } }
 
 strong {
   color: #D14233; }
